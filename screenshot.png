@@ -1,0 +1,68 @@
+=== TSO Theme ===
+Contributors: tusoporteonline
+Tags: two-columns, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+Requires at least: 5.9
+Tested up to: 7.0
+Requires PHP: 7.4
+Stable tag: 1.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Tema personalizado para Tu Soporte Online. Fondo naranja, área central blanca, compatible con todos los navegadores modernos.
+
+== Description ==
+
+Tema personalizado para el sitio web Tu Soporte Online (https://tusoporteonline.es).
+
+Características principales:
+* Grid de 2 columnas en la portada con botón "Cargar más"
+* Diseño de artículo individual con breadcrumb, Schema.org y posts relacionados
+* Lightbox propio compatible con Jetpack (carousel desactivado)
+* Compatible con Jetpack Tiled Gallery y galerías Gutenberg
+* Buscador en vivo con AJAX
+* Soporte para GTranslate (selector de idioma)
+* Compatible con LiteSpeed Cache, WP Super Cache y W3TC
+* Soporte completo para PHP 7.4 hasta 8.5
+
+== Installation ==
+
+1. En el panel de administración de WordPress, ve a Apariencia > Temas > Añadir nuevo.
+2. Haz clic en "Subir tema" y selecciona el archivo ZIP del tema.
+3. Activa el tema.
+4. Ve a Apariencia > Personalizar para configurar el tema.
+
+== wp-config.php (recomendado) ==
+
+Añade estas líneas en `wp-config.php` **antes** de «That's all, stop editing!» (no van en el tema):
+
+`define( 'WP_POST_REVISIONS', 5 );`
+`define( 'DISALLOW_FILE_EDIT', true );`
+
+* `WP_POST_REVISIONS` limita las revisiones guardadas por entrada.
+* `DISALLOW_FILE_EDIT` desactiva el editor de archivos en el escritorio (seguridad).
+
+Si ya existen en tu `wp-config.php`, no hace falta duplicarlas.
+
+== Changelog ==
+
+= 1.0 =
+* Versión inicial del tema Tu Soporte Online
+
+== Copyright ==
+
+Tu Soporte Online WordPress Theme, Copyright (C) 2024-2025 Tu Soporte Online
+Tu Soporte Online is distributed under the terms of the GNU GPL.
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+== Resources ==
+
+* Normalize.css, https://necolas.github.io/normalize.css/, MIT License
